@@ -503,7 +503,6 @@ max-width: 768px;}
 
 .main-menu-text {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
 }
 .menu-list {
@@ -948,6 +947,9 @@ max-width: 768px;}
   }
   .menu-list{
     width: calc((100% - 48px)/ 2);
+  }
+  .main-menu-text{
+    border: 1px solid #e7e9fc;
   }
   .main-menu-lists {
     width: 356px;
