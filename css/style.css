@@ -454,6 +454,8 @@ max-width: 768px;}
 }
 /* four-section */
 .main-menu-lists {
+  width: 288px;
+  height: 400px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
@@ -946,6 +948,10 @@ max-width: 768px;}
   }
   .menu-list{
     width: calc((100% - 48px)/ 2);
+  }
+  .main-menu-lists {
+    width: 356px;
+    height: 420px;
   }
   /* footer */
   .footer-text{
