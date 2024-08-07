@@ -140,8 +140,8 @@ width: 100%;
 }
 .menu-mob {
   display: flex;
-  justify-content: center;
-  gap: 48px;
+  gap:40px;
+  flex-wrap: nowrap;
 }
 .btn-x-clos {
   top: 24px;
@@ -253,7 +253,6 @@ width: 100%;
 nav {
   display: flex;
   align-items: center;
-  gap: 76px;
   padding: 0;
   margin: 0;
 }
@@ -871,9 +870,6 @@ max-width: 768px;}
   .menu-open-btn{
     display: none;
   }
-  .nav{
-    gap:120px;
-  }
   .header-menu-list{
     margin-left: 0;
   }
@@ -1009,6 +1005,9 @@ max-width: 768px;}
 }
 @media screen and (min-width:1158px){
     /* header */
+    nav{
+      gap:76px;
+    }
   /* one-section */
   .main-title-t{
     margin-bottom: 48px;
