@@ -876,6 +876,7 @@ max-width: 768px;}
   .header-soc-lists{
     padding: 0;
     flex-wrap: wrap;
+    gap: 12px;
   }
   .header-menu-list-item{
     padding: 0;
